@@ -1,0 +1,39 @@
+html{
+	font-size: 100%;
+	line-height: 1.5;
+}
+div{
+	background-color: #3c1700;
+	width: 300px;
+	padding: 25px;
+	border: 25px solid navy;
+	margin: 25px;
+}
+
+@font-face{
+	font-family: "Ubuntu,sans-serif";
+	src:local("Ubuntu, sans-serif"), local("Ubuntu,sans-serif"), url(http://fonts.googleapis.com/css?family=Ubuntu);
+}
+body{
+	background-color: #b0c4de;
+	margin: 0;
+	font-family: ubuntu, sans-serif;
+}
+
+img{
+
+	width: 300px;
+}
+h1, h2{
+	color: #666;
+text-align: center;
+}
+h2{
+	text-shadow:2px 2px 2px #fff;
+}
+p{
+	
+	background: #555;
+	color: white;
+	padding: 10px;
+}
